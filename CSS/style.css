@@ -1,0 +1,121 @@
+body{
+    background-color: #F6ECEC;
+  }
+  
+  .page {
+    margin: 1rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 3rem;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header ul{
+    display: flex;
+  }
+  
+  header li {
+    margin-left: 2rem;
+  }
+  
+  #main {
+    display: flex;
+  }
+  
+  .w-50 {
+    width:50%;
+  }
+  
+  .w-100 {
+    width:100%;
+    background: linear-gradient(270deg, #FFFFFF 24.6%, rgba(255, 255, 255, 0.94) 37.11%, rgba(255, 255, 255, 0.9) 46.89%, rgba(255, 255, 255, 0) 82.49%);
+    mix-blend-mode: normal;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  
+  h2{
+    text-align: center;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: space-around;
+  }
+  #vector{
+    padding-top: 20px;
+    margin-left: 10px;
+  }
+  #Sign{
+    border-radius: 30px;
+    background-color: red;
+    width: 100px;
+    text-align: center;
+    height: 19px;
+    margin-right: 70px;
+  }
+  ul {
+    list-style-type: none;
+  }
+.pizza{
+    text-align: center;
+    border: solid 1px;
+    border-radius: 180px 180px 30px 30px;
+    margin-left: 50px;
+    align-items: center;
+    padding: 24px 16px;
+    gap: 21px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    transition: all 10s ease;
+}
+h1{
+    font-size: 3rem;
+}
+.titre1{
+    text-align: left;
+}
+.titre3{
+    background-color: #EC0000;
+    border-radius: 20px;
+    text-align: left;
+    width: 20%;
+    color: white;
+}
+p{
+    text-align: center;
+    background-color: #EC0000;
+    border-radius: 20px;
+    color: white;
+  
+}
+h5{
+    color: green;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+.home{
+    color: red;
+}
+#chariot{
+    width : 10vw;
+    height : 10vh;
+    max-width : 50px;
+    max-height : 50px;
+   padding-right: 5px;
+
+}
+.blockmenu{
+    display: flex;
+    justify-content: space-between;
+  }
